@@ -1,14 +1,52 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"needs": {
+		"https": [{
+			"id": 1,
+			"form": [{
+				"title": "Custom HTTPS Request",
+				"type": "object",
+				"required": [
+					"url"
+				],
+				"properties": {
+					"url": {
+						"type": "string",
+						"title": "URL"
+					}
+				},
+				"additionalProperties": {
+					"type": "string"
+				}
+			}]
+		}],
+		"schedule": [{
+			"id": 1,
+			"form": [{
+				"title": "Create Schedule Trigger",
+				"description": "Choose your trigger event",
+				"type": "object",
+				"required": [
+					"schedule"
+				],
+				"properties": {
+					"schedule": {
+						"title": "Schedule",
+						"type": "string",
+						"enum": [
+							"every-hour",
+							"every-day",
+							"every-week",
+							"every-month"
+						],
+						"enumNames": [
+							"Every Hour",
+							"Every Day",
+							"Every Week",
+							"Every Month"
+						]
+					}
+				}
+			}]
+		}]
+	}
 }
