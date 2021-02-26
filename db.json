@@ -1,5 +1,5 @@
 {
-	"needs": {
+	"needs": [{
 		"https": [{
 			"id": 1,
 			"form": [{
@@ -20,7 +20,7 @@
 			}]
 		}],
 		"schedule": [{
-			"id": 1,
+			"id": 2,
 			"form": [{
 				"title": "Create Schedule Trigger",
 				"description": "Choose your trigger event",
@@ -48,5 +48,5 @@
 				}
 			}]
 		}]
-	}
+	}]
 }
