@@ -3,21 +3,32 @@
 			"id": 1,
 			"app": "https",
 			"form": [{
-				"title": "Custom HTTPS Request",
-				"type": "object",
-				"required": [
-					"url"
-				],
-				"properties": {
-					"url": {
-						"type": "string",
-						"title": "URL"
-					}
-				},
-				"additionalProperties": {
-					"type": "string"
-				}
-			}]
+  "title": "Custom HTTPS Request",
+  "type": "object",
+  "required": [
+    "url"
+  ],
+  "properties": {
+    "url": {
+      "type": "string",
+      "title": "URL Endpoint"
+    },
+    "queryStringParams": {
+      "type": "object",
+      "title": "Query String Parameters",
+              "additionalProperties": {
+              "type": "string"
+              }
+    },
+    "headers": {
+      "type": "object",
+      "title": "Headers",
+              "additionalProperties": {
+              "type": "string"
+              }
+    }
+  }
+}]
 		},
 		{
 			"id": 2,
