@@ -2,6 +2,7 @@
 	"needs": [{
 			"id": 1,
 			"app": "https",
+			"name": "HTTP Request",
 			"form": [{
   "title": "Custom HTTP Request",
   "type": "object",
@@ -213,6 +214,7 @@
 		{
 			"id": 2,
 			"app": "schedule",
+			"name": "Scheduler",
 			"form": [{
 				"title": "Create Schedule Trigger",
 				"description": "Choose your trigger event",
