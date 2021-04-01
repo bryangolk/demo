@@ -34,7 +34,7 @@
             },
             "https": {
               "type": "object",
-		    "title": "URL"
+	      "title": "URL",
   "required": [
     "url"
   ],
