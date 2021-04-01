@@ -32,9 +32,8 @@
                 "GET"
               ]
             },
-            "https": {
+            "URL": {
               "type": "object",
-	      "title": "URL",
   "required": [
     "url"
   ],
