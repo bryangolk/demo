@@ -241,7 +241,38 @@
 					}
 				}
 			}]
-		}
+		},
+		{
+  "id": 3,
+  "app": "webhook",
+  "name": "Webhook",
+  "form": [
+    {
+      "title": "Create a Webhook",
+      "description": "Choose your trigger event",
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "title": "Webhook Type",
+          "type": "string",
+          "enum": [
+            "webhook-poll",
+            "webhook-instant"
+            
+          ],
+          "enumNames": [
+            "Retrieve Poll",
+            "Catch Hook"
+            
+          ]
+        }
+      }
+    }
+  ]
+}
 	],
 	"comments": [{
 			"id": 1,
