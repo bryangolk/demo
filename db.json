@@ -267,17 +267,16 @@
             "Catch Hook"
           ]
         },
-      "workflow-id-webhook": {
+      "workflow": {
       "type": "string",
-      "title": "workflow",
-      "default": "asdf12122"
+      "title": "workflow"
     },
-    "uuid-webhook": {
+    "webhook_id": {
       "type": "string",
-      "title": "webhook_id",
-      "default": "77as7d-77as7d7f-76a7dsf7a"
+      "title": "webhook_id"
+     
     },
-    "node-id-webhook": {
+    "start_node": {
       "type": "string",
       "title": "start_node",
       "default": "START"
