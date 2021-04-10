@@ -247,7 +247,7 @@
   "app": "webhook",
   "name": "Webhook",
   "form": [
-    {
+{
       "title": "Create a Webhook",
       "description": "Choose your trigger event",
       "type": "object",
@@ -255,22 +255,35 @@
         "type"
       ],
       "properties": {
-        "type": {
+        "app": {
           "title": "Webhook Type",
           "type": "string",
           "enum": [
             "webhook-poll",
             "webhook-instant"
-            
           ],
           "enumNames": [
             "Retrieve Poll",
             "Catch Hook"
           ]
-        }
+        },
+      "workflow-id-webhook": {
+      "type": "string",
+      "title": "workflow",
+      "default": "asdf12122"
+    },
+    "uuid-webhook": {
+      "type": "string",
+      "title": "webhook_id",
+      "default": "77as7d-77as7d7f-76a7dsf7a"
+    },
+    "node-id-webhook": {
+      "type": "string",
+      "title": "start_node",
+      "default": "START"
+    }
       }
-    } ]
-}
+    }
 	],
 	"comments": [{
 			"id": 1,
