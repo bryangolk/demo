@@ -283,8 +283,8 @@
       "default": "START"
     }
       }
-    }]
-	],
+    }
+	]],
 	"comments": [{
 			"id": 1,
 			"body": "some comment",
