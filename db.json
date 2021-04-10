@@ -252,7 +252,7 @@
       "description": "Choose your trigger event",
       "type": "object",
       "required": [
-        "type"
+        "app"
       ],
       "properties": {
         "app": {
