@@ -1,1 +1,5 @@
-{"id": 1, "app": "httprequest", "name": "HTTP Request", "formDataEndpoint": "https://7nx4ewphyg.execute-api.us-west-2.amazonaws.com/production/apps/httprequest"}, {"id": 2, "app": "webhook", "name": "Webhook", "formDataEndpoint": "https://7nx4ewphyg.execute-api.us-west-2.amazonaws.com/production/hook/x"}, {"id": 3, "app": "googlesheets", "name": "Google Sheets", "formDataEndpoint": "https://7nx4ewphyg.execute-api.us-west-2.amazonaws.com/production/apps/googlesheets"}
+[
+ {"id": 1, "app": "httprequest", "name": "HTTP Request", "formDataEndpoint": "https://7nx4ewphyg.execute-api.us-west-2.amazonaws.com/production/apps/httprequest"}, 
+ {"id": 2, "app": "webhook", "name": "Webhook", "formDataEndpoint": "https://7nx4ewphyg.execute-api.us-west-2.amazonaws.com/production/hook/x"}, 
+ {"id": 3, "app": "googlesheets", "name": "Google Sheets", "formDataEndpoint": "https://7nx4ewphyg.execute-api.us-west-2.amazonaws.com/production/apps/googlesheets"}
+]
